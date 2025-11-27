@@ -1,0 +1,31 @@
+
+    <html>
+    <head><title>Email Header Analysis</title></head>
+    <body>
+        <h2>Email Header Analysis</h2>
+        <p><strong>Return-Path:</strong> 01020199dbf12dcc-147dd6aa-5a7f-4163-bf71-62dfc8e55ec1-000000@mail-licensing.portswigger.net</p>
+        <p><strong>From:</strong> dkim-signature</p>
+        <p><strong>To:</strong> sibiparvash143@gmail.com</p>
+        <p><strong>Subject:</strong> reply-to:to:from:dkim-signature</p>
+        <p><strong>Message-ID:</strong> subject:reply-to:to:from:dkim-signature
+         :dkim-signature;
+        bh=3ARWkXUY8PkFWDau6AzphdASodcgskEQCIY7cWhpOIw=;
+        fh=bMQSnj7bR+dHXSom00UA9cYgMqvfP4J4HZtOIKasHIo=;
+        b=OEU5c+CuYjZiuyoV+9qGVSVu9bXqvfaW80KETyZlVcYKILWgphvb7tMya9mKtfRscI
+         Z62TRAqS4Di80TMZE4Xb3iDElolweYfw9UMD3fQV+Em6MNg9BAR2YBa9L2t3t7E9QbAe
+         9rlPM0UDYsYHPFQehgKhS58TUGdCeeIgUaE/3BEnGcPGgRxUzWx+t4fZrnJahb942Gn7
+         xeXCdkpIKO5PH9Di1Y+gWjSUfk3zpE+sTaCgDPMuWfC0RTVpvhJFryDveRG9DOMg+RO+
+         zNRb2ChV60u1W1CHdJN+giHc5yEpYJj7SbJ1nmO2GIzNvbxRI4vi3Ahnx6v+UK9N1jnL
+         vvQw==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@portswigger.net header.s=oqaaxllumqnh6l2rgdaxowhw7kygy7mn header.b=TH7XUNgV;
+       dkim=pass header.i=@amazonses.com header.s=ihchhvubuqgjsxyuhssfvqohv7z3u4hn header.b=RDg9n1vf;
+       spf=pass (google.com: domain of 01020199dbf12dcc-147dd6aa-5a7f-4163-bf71-62dfc8e55ec1-000000@mail-licensing.portswigger.net designates 23.249.220.35 as permitted sender) smtp.mailfrom=01020199dbf12dcc-147dd6aa-5a7f-4163-bf71-62dfc8e55ec1-000000@mail-licensing.portswigger.net
+Return-Path: <01020199dbf12dcc-147dd6aa-5a7f-4163-bf71-62dfc8e55ec1-000000@mail-licensing.portswigger.net</p>
+        <p><strong>SPF:</strong> =pass (google.com: domain of 01020199dbf12dcc-147dd6aa-5a7f-4163-bf71-62dfc8e55ec1-000000@mail-licensing.portswigger.net designates 23.249.220.35 as permitted sender) smtp.mailfrom=01020199dbf12dcc-147dd6aa-5a7f-4163-bf71-62dfc8e55ec1-000000@mail-licensing.portswigger.net</p>
+        <p><strong>DKIM:</strong> -signature</p>
+        <p><strong>DMARC:</strong> Not found</p>
+        <h3>Received headers:</h3>
+        <ul>
+    <li>by 2002:a05:6a10:281e:b0:66c:f565:b9e9 with SMTP id ic30csp492598pxb;</li><li>by 2002:a17:907:6d25:b0:afe:a7e3:522e with SMTP id a640c23a62f3a-b50ac6d2cc3mr1107677266b.8.1760331640783;</li><li>from d220-35.smtp-out.eu-west-1.amazonses.com (d220-35.smtp-out.eu-west-1.amazonses.com. [23.249.220.35])</li></ul></body></html>
