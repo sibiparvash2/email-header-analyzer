@@ -42,3 +42,15 @@ Email parsing libraries
 
 Regular Expressions (Regex)
 
+## 📂 Project Structure
+
+email-header-analyzer/
+│
+├── email_header_analyzer.py
+├── sampleheader.txt
+├── report.html
+├── requirements.txt
+└── README.md
+
+
+
