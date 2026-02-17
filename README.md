@@ -52,5 +52,17 @@ email-header-analyzer/
 ├── requirements.txt
 └── README.md
 
+## ⚠️ Disclaimer
+This tool is for educational purposes only.
+
+
+## 🚀 Future Improvements
+
+- Add IP geolocation lookup
+- Add WHOIS lookup integration
+- Convert into web-based tool (Flask)
+- Add automated phishing risk scoring
+
+
 
 
